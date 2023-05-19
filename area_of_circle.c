@@ -2,12 +2,12 @@
 
 int main(){
 
-  double radius;
+  double radius, area;
   printf("Enter value of radius: ");
   scanf("%lf", &radius);
 
-  radius = 3.1416 * radius * radius;
+  area = 3.1416 * radius * radius;
 
-  printf("Area of the circle is %f.", radius);
+  printf("Area of the circle is %f.", area);
   return 0;
 }
